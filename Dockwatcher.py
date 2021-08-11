@@ -4,13 +4,7 @@
 # Notes ----------------------------------------------------------------------
 
 # To do
-## troubleshoot why force quits happen (NOAA BUOY SCRIPT)
-## generate buoy list if it doesn't exist already
-## synchronize pi clock with gps clock
-## add in weather forecast details
 ## configure alarms / alerts (within initial sync)
-## Make sure only to pull in weather buoy data from buoy that is reporting wind
-## Define streaming as a function and have option to overide internal GPS with preset coordinates
 ## Add in logic for correcting for temperature
 
 # Change Log:
