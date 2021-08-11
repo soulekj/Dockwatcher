@@ -1,2 +1,2 @@
 # Dockwatcher
-This is a project to create a remote sensor that will watch a boat a dock, and will stream back key information to the cloud for remote monitoring.
+Enable your raspberry pi to sense the environment when your boat is at dock and stream back key information to the cloud for remote monitoring.
