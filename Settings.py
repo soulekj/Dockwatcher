@@ -1,5 +1,5 @@
 # Installation Directory
-DIRECTORY = "/home/pi/Documents/Dockwatcher/"  #needs to be where the NOAA BUOY data files are stored
+DIRECTORY = "/home/pi/Dockwatcher/"  #used to reference the NOAA Buoy Data List
 
 #Initial State Connection Parameters
 BUCKET_NAME = "Aurora Dock-Watcher"
