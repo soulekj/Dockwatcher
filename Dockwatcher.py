@@ -20,7 +20,7 @@ from Packages import *     #import packages and custom defined functions
 
 
 #Import data from SenseHat
-sh_snapshot = sense_data(SEA_STATE_SPAN_SEC)
+sh_snapshot = sense_data(SEA_STATE_SPAN_SEC, TEMP_CORRECTION)
 
 
 # Import data from GPS, and if a fix is made, update location

@@ -15,7 +15,7 @@ from ISStreamer.Streamer import Streamer
 
 sense = SenseHat()
 
-def sense_data(sea_state_span_sec):
+def sense_data(sea_state_span_sec, temp_correction):
     ##Track orientation data over a set timelimit to measure seastate
     orientation = pd.DataFrame(columns = ['roll', 'pitch', 'yaw'])
     time_start = datetime.now()
@@ -42,7 +42,7 @@ def sense_data(sea_state_span_sec):
     mag = sense.get_compass()
 
     # Format the data
-    temp_f = temp_c * 9.0 / 5.0 + 32.0
+    temp_f = temp_c * 9.0 / 5.0 + 32.0 + temp_correction
     temp_f = float(round(temp_f,0))
     humidity = float(round(humidity,0))
     pressure_mb = float(round(pressure_mb,0))
